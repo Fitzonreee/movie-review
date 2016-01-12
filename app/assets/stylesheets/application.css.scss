@@ -14,11 +14,17 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
- @import "font-awesome-sprockets";
- @import "font-awesome";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+* {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 100;
+}
+
 
 body {
   background-color: #AA4847;
@@ -37,4 +43,11 @@ body {
 
 .navbar {
   border-radius: 0;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #AA4847 !important;
 }
